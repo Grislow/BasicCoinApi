@@ -1,0 +1,23 @@
+{
+  "name": "basicApiPres",
+  "version": "1.0.0",
+  "description": "Presentation of accessible data in the free plan of the most popular cryptocurrency data apis",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grislow/BasicCoinApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grislow/BasicCoinApi/issues"
+  },
+  "homepage": "https://github.com/Grislow/BasicCoinApi#readme",
+  "dependencies": {
+    "coinmarketcap-api": "^3.0.0"
+  }
+}

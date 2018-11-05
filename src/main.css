@@ -1,0 +1,59 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.selection__buttons {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.api {
+    text-align: center;
+}
+
+.api__header {
+    font-size: 3rem;
+}
+
+.api__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.api__btn, .api__doc {
+    background-color: green;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-weight: 200;
+}
+
+.search {
+    width: 50rem;
+    display: block;
+    margin: 3rem auto;
+    height: 2rem;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    font-size: 2rem;
+}
